@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7f50, #ff4500);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+  }
+
+  #login-section, #game-section {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: #502d16;
+  }
+
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #card-image {
+    display: none; /* La imagen se mostrará dinámicamente */
+    max-width: 150px; /* Cambia este valor según el tamaño deseado */
+    max-height: 250px; /* Cambia este valor según el tamaño deseado */
+    margin: 20px auto; /* Centra la imagen */
+    display: block;
+    border: 2px solid #000; /* Agrega un borde para resaltarla (opcional) */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
+}
+
+  #game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #card-display {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: #ff4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #ff7f50;
+  }
+
+  #card-display {
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }

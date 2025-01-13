@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego Verdad o Reto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Login -->
+  <div id="login-section">
+    <h2>Bienvenidos al Juego</h2>
+    <form id="login-form">
+      <label for="player1-name">Nombre del Jugador 1:</label>
+      <input type="text" id="player1-name" required>
+      <br>
+      <label for="player2-name">Nombre del Jugador 2:</label>
+      <input type="text" id="player2-name" required>
+      <br>
+      <button type="submit">Iniciar Juego</button>
+    </form>
+  </div>
+
+  <!-- Juego -->
+  <div id="game-section" style="display: none;">
+    <h2>Jugador actual: <span id="current-player"></span></h2>
+    <div id="card-display"></div>
+    <button id="truth-btn">Verdad</button>
+    <button id="dare-btn">Reto</button>
+    <button id="random-btn">Aleatorio</button>
+    <button id="shot-btn">Shot y Saltar</button>
+    <button id="next-player-btn">Cambiar Jugador</button>
+  </div>
+
+  <div id="card-display">
+    <img id="card-image" src="" alt="Carta actual" style="max-width: 100%; height: auto; display: none;">
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
